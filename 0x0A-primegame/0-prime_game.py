@@ -1,3 +1,8 @@
+#!/usr/bin/python3
+"""
+isWineer: a function for the solution to the Prime Game problem
+"""
+
 def isWinner(x, nums):
     wins = {"Maria": 0, "Ben": 0}
     for n in nums:
