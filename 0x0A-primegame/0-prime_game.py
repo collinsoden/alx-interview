@@ -4,6 +4,9 @@ isWineer: a function for the solution to the Prime Game problem
 """
 
 def isWinner(x, nums):
+    """
+     Returns winner of the game 
+    """
     wins = {"Maria": 0, "Ben": 0}
     for n in nums:
         winner = None
