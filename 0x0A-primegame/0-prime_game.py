@@ -37,6 +37,9 @@ def isWinner(x, nums):
         if winner is not None:
             wins[winner] += 1
     if wins["Maria"] > wins["Ben"]:
+        """
+            Return name with most wins
+        """
         return "Maria"
     elif wins["Maria"] < wins["Ben"]:
         return "Ben"
